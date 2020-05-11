@@ -9,12 +9,13 @@
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "noEmit": true,
+    "outDir": "./lib",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     },
     "types": ["@types/node", "@nuxt/types"]
   },
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }

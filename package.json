@@ -1,15 +1,19 @@
 {
-  "name": "@nuxt/vuexen",
+  "name": "nuxt-vuexen",
   "version": "0.0.1",
   "description": "Vuexen module for Nuxt.js",
-  "main": "index.js",
+  "main": "lib/module.js",
   "repository": "git@github.com:DraconicDevelopment/vuexen-module.git",
   "author": "David Domkář <dave.domkar@gmail.com>",
   "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
-    "vuexen": "^0.0.3"
+    "vuexen": "^0.0.4"
   },
   "devDependencies": {
-    "@nuxt/types": "^0.7.1"
+    "@nuxt/types": "^0.7.1",
+    "nuxt-edge": "next"
   }
 }
