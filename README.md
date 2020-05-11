@@ -1,1 +1,1 @@
-vuexen-module
+#nuxt-vuexen
